@@ -38,6 +38,10 @@
     <link rel="stylesheet" href="./css/mdb.min.css" />
     <!-- MDB PLUGINS -->
     <link rel="stylesheet" href="./plugins/css/all.min.css" />
+    <!-- Animate CSS -->
+    <link rel="stylesheet" href="./css/animate.min.css" />
+    <!-- Animate on Scroll -->
+    <link rel="stylesheet" href="./css/aos.css" />
     <!-- Typography -->
     <link rel="stylesheet" href="./css/typography.css" />
     <!-- Custom styles -->
@@ -52,8 +56,20 @@
     <div id="content">
       <section id="view1">
         <div class="container section-1">
-          <h1 class="orbitron push-none">S-80</h1>
-          <p class="rajdhani push-none">
+          <h1
+            class="orbitron push-none"
+            data-aos="fade-right"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
+            S-80
+          </h1>
+          <p
+            class="rajdhani push-none"
+            data-aos="fade-left"
+            data-aos-offset="300"
+            data-aos-easing="ease-in-sine"
+          >
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Donec
             odio. Quisque volutpat mattis eros. Nullam malesuada erat ut turpis.
             Suspendisse urna nibh viverra non semper suscipit posuere a pede.
@@ -71,6 +87,12 @@
   <script type="text/javascript" src="./js/mdb.umd.min.js"></script>
   <!-- MDB PLUGINS -->
   <script type="text/javascript" src="./plugins/js/all.min.js"></script>
+  <!-- Animate on Scroll -->
+  <script type="text/javascript" src="./js/aos.min.js"></script>
   <!-- Custom scripts -->
+  <script type="module" src="./js/webgi.js"></script>
   <script type="module" src="./js/script.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </html>
