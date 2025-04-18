@@ -11,8 +11,9 @@ body {
 #mcanvas {
   width: 100%;
   height: 100%;
-  z-index: -1;
+  z-index: 10;
 }
+
 #canvasContainer {
   width: 100%;
   height: 100%;
@@ -20,15 +21,62 @@ body {
   top: 0;
   z-index: 5;
 }
+
 #content{
-  z-index: 10;
-  position: relative;
   height: auto;
 }
-section{
-  z-index: 100;
+
+section#view1,
+section#view2,
+section#view3,
+section#view4 {
+  position: relative
+}
+
+div#content section {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  top: 0px;
+  width: 100%;
   height: 100vh;
-  line-height: 100vh;
-  font-size: 4rem;
+  color: white;
+  width: 100%;
+}
+
+
+/* Tyography */
+
+.orbitron {
+  font-family: "Orbitron", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 800;
+  font-style: normal;
+}
+
+.rajdhani {
+  font-family: "Rajdhani", sans-serif;
+  font-optical-sizing: auto;
   font-weight: 600;
+  font-style: normal;
+}
+
+/* .section-1 {
+
+} */
+
+.section-1 h1 {
+  position: absolute;
+  top: 35%;
+  left: 14%;
+  font-size: 10em;
+}
+
+.section-1 p {
+  position: absolute;
+  bottom: 25%;
+  right: 12%;
+  width: 100%;
+  max-width: 25em;
+  z-index: 100;
 }
