@@ -1,0 +1,34 @@
+body {
+  overflow-y: scroll;
+  overflow-x: hidden;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  background-color: #3989C8;
+}
+
+#mcanvas {
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+#canvasContainer {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 5;
+}
+#content{
+  z-index: 10;
+  position: relative;
+  height: auto;
+}
+section{
+  z-index: 100;
+  height: 100vh;
+  line-height: 100vh;
+  font-size: 4rem;
+  font-weight: 600;
+}
