@@ -1,22 +1,18 @@
 import {
   ViewerApp,
   addBasePlugins,
-  DiamondPlugin,
-  AssetManagerPlugin,
   ScrollableCameraViewPlugin,
-  Vector3
 } from "https://dist.pixotronics.com/webgi/runtime/bundle-0.10.4.mjs";
 
-async function setupViewer() {
+  async function setupViewer() {
   // Initialize the viewer
   const viewer = new ViewerApp({
-    canvas: document.getElementById("mcanvas"),
+    canvas: document.getElementById("canvas"),
   });
 
   // Add all the plugins at once
   await addBasePlugins(viewer);
   await viewer.addPlugin(ScrollableCameraViewPlugin);
-  await viewer.addPlugin(DiamondPlugin);
 
   // This must be called after adding any plugin that changes the render pipeline.
   viewer.renderer.refreshPipeline();
