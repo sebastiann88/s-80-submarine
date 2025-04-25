@@ -71,7 +71,7 @@ p {
 .section-1 h1 {
   font-size: 8em;
   line-height: unset; 
-  z-index: 100;
+  z-index: -10;
 }
 
 .section-1 p {
