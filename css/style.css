@@ -63,18 +63,43 @@ p {
   font-style: normal;
 }
 
-.section-1 > div {
+.section-1,
+.section-2,
+.section-3,
+.section-4 {
+  opacity: 1;
+}
+
+.section-1 > div,
+.section-2 > div,
+.section-3 > div {
   height: 100vh;
   justify-content: center;
 }
 
-.section-1 h1 {
-  font-size: 8em;
+.section-4 > div {
+  height: 100vh;
+  justify-content: end;
+}
+
+.section-1 h1,
+.section-2 h2,
+.section-3 h2,
+.section-4 h2 {
   line-height: unset; 
   z-index: -10;
 }
 
-.section-1 p {
+.section-1 h1 {
+  font-size: 8em;
+}
+
+.section-4 > div {
+  padding-bottom: 20%;
+}
+
+.section-1 p,
+.section-2 p {
   justify-content: end;
   margin-top: 20%;
   z-index: 100;
