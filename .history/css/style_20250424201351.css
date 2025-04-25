@@ -132,6 +132,7 @@ p {
 }
 
 .fade-text {
+  font-size: 2rem;
   opacity: 1;
 }
 

@@ -1,6 +1,4 @@
 import { gsap } from "./gsap-core.js";
-import { ScrollTrigger } from "./ScrollTrigger.min.js";
-gsap.registerPlugin(ScrollTrigger);
 
 gsap.to(".fade-text", {
   opacity: 0,

@@ -67,14 +67,14 @@ p {
 }
 
 .section-1 h1 {
-  position: absolute;
+  position: static;
   top: 35%;
   left: 12%;
   font-size: 10em;
 }
 
 .section-1 p {
-  position: absolute;
+  position: static;
   bottom: 25%;
   right: 12%;
   width: 100%;
@@ -129,10 +129,6 @@ p {
 #number {
   position: absolute;
   z-index: -1;
-}
-
-.fade-text {
-  opacity: 1;
 }
 
 /* Components */

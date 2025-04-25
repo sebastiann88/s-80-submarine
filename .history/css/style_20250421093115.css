@@ -131,10 +131,6 @@ p {
   z-index: -1;
 }
 
-.fade-text {
-  opacity: 1;
-}
-
 /* Components */
 
 .accordion {
