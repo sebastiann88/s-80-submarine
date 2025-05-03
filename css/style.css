@@ -44,6 +44,19 @@ nav.navbar {
   z-index: 100;
 }
 
+li.nav-item {
+  margin-top: 2px;
+}
+
+li.nav-item:last-child {
+  margin-top: 0;
+}
+
+.arrow-right {
+  width: 1.125em;
+  margin-bottom: 3px;
+}
+
 /* Brand Colors */
 
 .brand-color-blue {
@@ -68,32 +81,15 @@ hr {
 
 /* Tyography */
 
-.orbitron {
-  font-family: "Orbitron", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 800;
-  font-style: normal;
-}
-
-.rajdhani {
-  font-family: "Rajdhani", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 600;
-  font-style: normal;
-}
-
 h1, h2, h3, h4, h5, h6, p, ol, ul, li, a, span, div, figcaption {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
 }
 
-/* p {
-  font-family: "Rajdhani", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-} */
+a:hover {
+  text-decoration: underline;
+}
 
 .line-1-1-2-5 {
   line-height: 1.125;
@@ -333,6 +329,7 @@ h1, h2, h3, h4, h5, h6, p, ol, ul, li, a, span, div, figcaption {
 
 footer {
   background-color: #221E22;
+  z-index: 100;
 }
 
 footer ul {
@@ -345,6 +342,10 @@ footer ul li {
   padding: 0 0.75em;
 }
 
+footer ul.social li {
+  padding: 0 0.5em;
+}
+
 .start-conversation {
   display: flex;
   justify-content: center;
@@ -352,6 +353,11 @@ footer ul li {
 
 .footer-logo {
   display: block;
+}
+
+.fullview {
+  padding-left: 0.25em;
+  padding-right: 0.75em;
 }
 
 .contact-us-btn {
