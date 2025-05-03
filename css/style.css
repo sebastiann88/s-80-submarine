@@ -31,6 +31,8 @@ main {
 
 #canvasContainer {
   position: fixed;
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
   width: 100%;
   height: 100%;
   z-index: 5;
@@ -173,8 +175,12 @@ a:hover {
 
 /* JUMBOTRON */
 
+.hero-section {
+  height: 94.5vh;
+}
+
 .s-80-jumbotron {
-  height: 35em;
+  height: 94.5vh;
   background-image: linear-gradient(
     to bottom,
     rgba(34, 30, 34, 0),
@@ -199,13 +205,9 @@ a:hover {
 
 /* Sections */
 
-#canvasContainer {
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out;
-}
-
-.hero-section {
-  height: 48em;
+header {
+  position: relative;
+  z-index: 100;
 }
 
 .built-by-navantia {
