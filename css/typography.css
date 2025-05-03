@@ -107,6 +107,14 @@ thead th {
   font-style: normal;
 }
 
+.medium {
+  font-weight: 500;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
 .bold {
   font-weight: bold;
 }

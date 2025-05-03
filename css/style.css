@@ -5,7 +5,7 @@ body {
   height: 100%;
   margin: 0;
   padding: 0;
-  background-color: #3989C8;
+  /* background-color: #3989C8; */
 }
 
 #mcanvas {
@@ -35,9 +35,35 @@ section#view4 {
 
 #content section {
   display: flex;
+  flex-direction: column;
   width: 100%;
   height: 100vh;
-  color: white;
+}
+
+nav.navbar {
+  z-index: 100;
+}
+
+/* Brand Colors */
+
+.brand-color-blue {
+  color: #005db4;
+}
+
+.bg-brand-color-blue {
+  background-color: #005db4;
+}
+
+.logo {
+  width: 100%;
+  max-width: 6.75em;
+}
+
+hr {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #fff;
 }
 
 /* Tyography */
@@ -56,11 +82,127 @@ section#view4 {
   font-style: normal;
 }
 
-p {
+h1, h2, h3, h4, h5, h6, p, ol, ul, li, a, span, div, figcaption {
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+
+/* p {
   font-family: "Rajdhani", sans-serif;
   font-optical-sizing: auto;
   font-weight: 500;
   font-style: normal;
+} */
+
+.line-1-1-2-5 {
+  line-height: 1.125;
+}
+
+.checklist {
+  list-style-type: none;
+}
+
+.checklist li {
+  position: relative;
+  list-style-type: none;
+  padding-left: 0.75em;
+  vertical-align: middle;
+}
+
+.checklist li.checkmark {
+  list-style-image: url("../img/checkbox.svg");
+}
+
+.checklist li::before,
+.checklist li::marker {
+  position: absolute;
+  left: 0;
+  top: -50%;
+  vertical-align: middle;
+  height: 25px;
+  width: 25px;
+}
+
+.no-bullets {
+  list-style-type: none;
+}
+
+.features-list {
+  margin-top: 70%;
+}
+
+.gutter-tripple {
+  padding: 0 2.25em;
+}
+
+.gutter-4 {
+  padding: 0 3em;
+}
+
+.gutter-5 {
+  padding: 0 3.75em;
+}
+
+/* .checklist li::before {
+  margin-top: 0.3em;
+} */
+
+/* SPACING */
+
+.next-gen-sub {
+  margin-bottom: 6em;
+}
+
+.max-width-30 {
+  max-width: 42em;
+  margin: 0 auto;
+}
+
+.no-padding {
+  padding: 0;
+}
+
+/* JUMBOTRON */
+
+.s-80-jumbotron {
+  height: 35em;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(34, 30, 34, 0),
+    rgba(34, 30, 34, 1)
+  );
+}
+
+.s-80-headline {
+  font-size: 12em;
+  line-height: 0.75;
+  font-weight: 600;
+}
+
+/* Components */
+
+.accordion {
+  position: absolute;
+  z-index: 200;
+  top: 0;
+  width:100%;
+}
+
+/* Sections */
+
+#canvasContainer {
+  opacity: 0;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.hero-section {
+  height: 48em;
+}
+
+.built-by-navantia {
+  background-color: #221E22;
+  padding: 3em;
 }
 
 .section-1,
@@ -70,39 +212,59 @@ p {
   opacity: 1;
 }
 
-.section-1 > div,
-.section-2 > div,
-.section-3 > div {
+.section-1 > div {
+  height: 100vh;
+  justify-content: flex-start;
+  padding-top: 12em;
+}
+
+.section-2 > div {
   height: 100vh;
   justify-content: center;
 }
 
-.section-4 > div {
+.section-3 > div {
   height: 100vh;
   justify-content: end;
 }
 
-.section-1 h1,
+.section-3 > div {
+  display: flex;
+  align-items: center;
+}
+
 .section-2 h2,
-.section-3 h2,
+.section-3 h2 {
+  line-height: 1; 
+  z-index: 10;
+}
+
 .section-4 h2 {
-  line-height: unset; 
-  z-index: -10;
+  line-height: 1.2;
+  z-index: 10;
 }
 
 .section-1 h1 {
-  font-size: 8em;
+  font-size: 18em;
+  line-height: 0.75;
+  z-index: -10;
 }
 
-.section-4 > div {
-  padding-bottom: 20%;
+.section-1-p {
+  justify-content: end;
+  margin-top: 30%;
+  z-index: 100;
 }
 
-.section-1 p,
+
 .section-2 p {
   justify-content: end;
   margin-top: 20%;
   z-index: 100;
+}
+
+.new-era {
+  margin-top: 5em;
 }
 
 /* Annotations */
@@ -154,15 +316,44 @@ p {
   z-index: -1;
 }
 
+/* Animations */
+
 .fade-text {
   opacity: 1;
 }
 
-/* Components */
+/* Buttons */ 
 
-.accordion {
-  position: absolute;
-  z-index: 200;
-  top: 0;
-  width:100%;
+.explore-more-btn,
+.contact-us-btn {
+  padding: 22px 28px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #221E22;
+}
+
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer ul li {
+  display: inline-block;
+  padding: 0 0.75em;
+}
+
+.start-conversation {
+  display: flex;
+  justify-content: center;
+}
+
+.footer-logo {
+  display: block;
+}
+
+.contact-us-btn {
+  margin-top: 5%;
 }

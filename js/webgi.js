@@ -23,13 +23,16 @@ async function setupViewer() {
   // Load a 3D model
   await viewer.load("./img/s-80-submarine.glb");
 
+  // Ensure the rendering pipeline is refreshed after loading the model
+  viewer.renderer.refreshPipeline();
+
   // Load an environment map
   // await viewer.setEnvironmentMap(
   //     "https://dist.pixotronics.com/webgi/assets/hdr/gem_2.hdr.png?v=1"
   // );
 
   viewer.scene.activeCamera.setCameraOptions({ controlsEnabled: false });
-  viewer.scene.activeCamera.position.set(1.8857891050, 0.7629809200, 3.9780318071);
+  viewer.scene.activeCamera.position.set(1.836107343, 0.7697067246, 4.9843526365);
   viewer.scene.activeCamera.positionTargetUpdated();
 
   let updatedCamera = false;
@@ -73,15 +76,6 @@ async function setupViewer() {
   const annotationtext = document.querySelector(".annotationtext");
 
   const numberTexture = new CanvasTexture(document.querySelector("#number"));
-
-  // const spriteMaterial = viewer.createMaterial("basic", {
-  //   map: numberTexture,
-  //   alphaTest: 0.5,
-  //   transparent: true,
-  //   depthTest: false,
-  //   depthWrite: false,
-  //   side: DoubleSide,
-  // });
 
   const annotationPosition = new Vector3(0, -0.2, 1.5);
 
@@ -137,6 +131,10 @@ async function setupViewer() {
     updateAnnotationOpacity();
     updateScreenPosition();
   });
+
+  // Fix flickering by ensuring proper rendering settings
+  viewer.renderer.sortObjects = true; // Ensure objects are sorted properly
+  viewer.renderer.physicallyCorrectLights = true; // Use physically correct lighting
 }
 
 setupViewer();
