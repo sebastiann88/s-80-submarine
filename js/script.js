@@ -5,7 +5,7 @@ window.onload = function() {
 
   ScrollTrigger.create({
     trigger: ".section-1",
-    start: "99.7% bottom",
+    start: "95.8% 95.2%",
     end: "top top",
     // markers: true,
     onEnter: () => {
