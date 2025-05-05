@@ -22,7 +22,7 @@ window.onload = function() {
 
   ScrollTrigger.create({
     trigger: ".section-3",
-    start: "96.4% bottom",
+    start: "95.8% bottom",
     end: "bottom bottom",
     // markers: true,
     onEnter: () => {
