@@ -5,8 +5,9 @@ window.onload = function() {
 
   ScrollTrigger.create({
     trigger: ".section-1",
-    start: "bottom bottom",
+    start: "99.7% bottom",
     end: "top top",
+    // markers: true,
     onEnter: () => {
       TweenLite.set("#canvasContainer", {
         opacity: 1,
@@ -21,8 +22,9 @@ window.onload = function() {
 
   ScrollTrigger.create({
     trigger: ".section-3",
-    start: "bottom bottom",
+    start: "96.4% bottom",
     end: "bottom bottom",
+    // markers: true,
     onEnter: () => {
       TweenLite.set("#canvasContainer", {
         opacity: 0,
