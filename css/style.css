@@ -268,7 +268,7 @@ header {
 }
 
 .section-1 h1 {
-  font-size: 9em;
+  font-size: 11em;
   line-height: 0.75;
   z-index: -150;
 }
@@ -442,6 +442,10 @@ footer ul.social li {
     width: 0.85em;
   }
 
+  .section-1 h1.s-80-text {
+    font-size: 12em;
+  }
+
 }
 
 @media (min-width: 768px) {
@@ -449,13 +453,15 @@ footer ul.social li {
     font-size: 12em;
   }
 
-  .section-1 h1 {
-    font-size: 12em;
+  .section-1 h1.s-80-text {
+    font-size: 16em;
   }
 }
 
 @media (min-width: 992px) {
-
+  .section-1 h1.s-80-text {
+    font-size: 18em;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -478,8 +484,8 @@ footer ul.social li {
     width: 1em;
   }
 
-  .section-1 h1 {
-    font-size: 12em;
+  .section-1 h1.s-80-text {
+    font-size: 20em;
   }
 
   .start-conversation {
@@ -494,5 +500,9 @@ footer ul.social li {
 @media (min-width: 1648px) {
   .s-80-headline {
     font-size: 15em;
+  }
+
+  .section-1 h1.s-80-text {
+    font-size: 24em;
   }
 }
