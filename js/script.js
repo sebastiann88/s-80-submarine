@@ -50,14 +50,14 @@ window.onload = function() {
   });
   
   gsap.to(".fade-left1", {
-    xPercent: -100,
+    xPercent: -20,
     yPercent: 0,
     scrollTrigger: {
       trigger: ".section-1",
       start: "30% 15%",
       end: "bottom 75%",
       scrub: true,
-      x: -400,
+      x: -100,
       y: 0,
       // markers: true,
     },
@@ -65,7 +65,7 @@ window.onload = function() {
   });
   
   gsap.to(".fade-right1", {
-    xPercent: 100,
+    xPercent: 20,
     yPercent: 0,
     scrollTrigger: {
       trigger: ".section-1",
@@ -84,7 +84,7 @@ window.onload = function() {
     scrollTrigger: {
       trigger: ".section-2",
       start: "20% 20%",
-      end: "bottom 75%",
+      end: "bottom 85%",
       scrub: true,
       // markers: true,
     },
@@ -92,7 +92,7 @@ window.onload = function() {
   });
   
   gsap.to(".fade-left2", {
-    xPercent: -100,
+    xPercent: -20,
     yPercent: 0,
     scrollTrigger: {
       trigger: ".section-2",
@@ -107,7 +107,7 @@ window.onload = function() {
   });
   
   gsap.to(".fade-right2", {
-    xPercent: 100,
+    xPercent: 20,
     yPercent: 0,
     scrollTrigger: {
       trigger: ".section-2",
@@ -134,7 +134,7 @@ window.onload = function() {
   });
   
   gsap.to(".fade-left3", {
-    xPercent: -100,
+    xPercent: -20,
     yPercent: 0,
     scrollTrigger: {
       trigger: ".section-3",
@@ -149,7 +149,7 @@ window.onload = function() {
   });
 
   gsap.to(".fade-right3", {
-    xPercent: 100,
+    xPercent: 20,
     yPercent: 0,
     scrollTrigger: {
       trigger: ".section-3",
