@@ -119,6 +119,14 @@ thead th {
   font-weight: bold;
 }
 
+.extra-bold {
+  font-weight: 800;
+}
+
+.black {
+  font-weight: 900;
+}
+
 .italic {
   font-style: italic;
 }
