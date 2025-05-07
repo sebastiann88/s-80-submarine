@@ -69,11 +69,6 @@ li.nav-item:last-child {
   margin-top: 0;
 }
 
-li a.text-white:hover,
-li a.text-white.active {
-  border-bottom: 1px solid #fff;
-}
-
 .arrow-right {
   width: 1.125em;
   margin-bottom: 3px;
@@ -124,7 +119,32 @@ nav.navbar-expand-lg {
 
 .navbar-expand-lg .navbar-nav a.nav-link {
   padding: 0.75em 0 0.25em;
-  margin: 0 1.45em 0 0.95em;
+  margin: 0 1.25em;
+}
+
+.navbar-expand-lg .navbar-nav a.nav-link:hover,
+.navbar-expand-lg .navbar-nav a.nav-link:focus,
+.navbar-expand-lg .navbar-nav a.nav-link:active {
+  margin: 0 1.2em;
+}
+
+li a.text-white:hover,
+.nav-link:hover,
+.nav-link:focus,
+li a.active {
+  color: #fff;
+  font-weight: 600;
+  /* border-bottom: 1px dotted #fff; */
+}
+
+.navbar-expand-lg .navbar-nav a.faq {
+  margin: 0 2.65em 0 0.95em;
+}
+
+.navbar-expand-lg .navbar-nav a.faq:hover,
+.navbar-expand-lg .navbar-nav a.faq:focus,
+.navbar-expand-lg .navbar-nav a.faq:active {
+  margin: 0 2.6em 0 0.95em;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:last-child a,
