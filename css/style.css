@@ -110,9 +110,13 @@ h1, h2, h3, h4, h5, h6, p, ol, ul, li, a, span, div, figcaption {
   font-style: normal;
 }
 
+nav.navbar-expand-lg {
+  padding: 0.9em 0;
+}
+
 .navbar-expand-lg .navbar-nav a.nav-link {
   padding: 0.75em 0 0.25em;
-  margin: 0 0.75em;
+  margin: 0 1.45em 0 0.95em;
 }
 
 .navbar-expand-lg .navbar-nav .nav-link:last-child a,
@@ -450,7 +454,7 @@ footer ul.social li {
 
 @media (min-width: 768px) {
   .s-80-headline {
-    font-size: 12em;
+    font-size: 16em;
   }
 
   .section-1 h1.s-80-text {
@@ -476,7 +480,7 @@ footer ul.social li {
   }
 
   .s-80-headline {
-    font-size: 16em;
+    font-size: 14.75em;
   }
 
   .arrow-right {
@@ -485,7 +489,7 @@ footer ul.social li {
   }
 
   .section-1 h1.s-80-text {
-    font-size: 20em;
+    font-size: 14.75em;
   }
 
   .start-conversation {
@@ -499,10 +503,10 @@ footer ul.social li {
 
 @media (min-width: 1648px) {
   .s-80-headline {
-    font-size: 15em;
+    font-size: 22em;
   }
 
   .section-1 h1.s-80-text {
-    font-size: 24em;
+    font-size: 28em;
   }
 }

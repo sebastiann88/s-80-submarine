@@ -18,6 +18,7 @@ window.onload = function() {
         opacity: 0,
       });
     },
+    immediateRender: false,
   });
 
   ScrollTrigger.create({
@@ -35,6 +36,7 @@ window.onload = function() {
         opacity: 1,
       });
     },
+    immediateRender: false,
   });
 
   gsap.to(".section-1", {
@@ -46,7 +48,7 @@ window.onload = function() {
       scrub: true,         // smooth scrub based on scroll position
       // markers: true,       // show markers for debugging
     },
-    immediateRender: false,
+    immediateRender: true,
   });
   
   gsap.to(".fade-left1", {
@@ -61,7 +63,7 @@ window.onload = function() {
       y: 0,
       // markers: true,
     },
-    immediateRender: false,
+    immediateRender: true,
   });
   
   gsap.to(".fade-right1", {
@@ -76,7 +78,7 @@ window.onload = function() {
       y: 0,
       // markers: true,
     },
-    immediateRender: false,
+    immediateRender: true,
   });
   
   gsap.to(".section-2", {
@@ -88,7 +90,7 @@ window.onload = function() {
       scrub: true,
       // markers: true,
     },
-    immediateRender: false,
+    immediateRender: true,
   });
   
   gsap.to(".fade-left2", {
@@ -103,7 +105,7 @@ window.onload = function() {
       y: 0,
       // markers: true,
     },
-    immediateRender: false,
+    immediateRender: true,
   });
   
   gsap.to(".fade-right2", {
@@ -118,7 +120,7 @@ window.onload = function() {
       y: 0,
       // markers: true,
     },
-    immediateRender: false,
+    immediateRender: true,
   });
 
   gsap.to(".section-3", {
@@ -145,7 +147,7 @@ window.onload = function() {
       y: 0,
       // markers: true,
     },
-    immediateRender: false,
+    immediateRender: true,
   });
 
   gsap.to(".fade-right3", {
@@ -160,7 +162,7 @@ window.onload = function() {
       y: 0,
       // markers: true,
     },
-    immediateRender: false,
+    immediateRender: true,
   });
   
   // gsap.to(".fade-right4", {
@@ -175,6 +177,6 @@ window.onload = function() {
   //     y: 0,
   //     // markers: true,
   //   },
-  //   immediateRender: false,
+  //   immediateRender: true,
   // });
 };
