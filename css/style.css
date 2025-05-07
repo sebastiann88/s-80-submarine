@@ -265,7 +265,7 @@ button.get-in-touch {
     rgba(36, 37, 46, 1) 0%,
     rgba(36, 37, 46, 1) 50%
   );
-  padding: 3em;
+  padding: 3em 0.75em 0;
 }
 
 .built-by-h2 {
@@ -560,6 +560,10 @@ footer ul.social li {
   .arrow-right {
     padding-left: 0;
     width: 1em;
+  }
+
+  .built-by-navantia {
+    padding: 0.75em 0.25em;
   }
 
   .section-1 h2.s-80-text {
