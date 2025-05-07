@@ -208,6 +208,11 @@ button.get-in-touch {
   height: 100vh;
 }
 
+.section-1 h2.s-80-text {
+  font-size: 10.25em;
+  line-height: 0.75;
+}
+
 .scroll-down {
   position: absolute;
   top: 0;
@@ -335,7 +340,7 @@ header {
 }
 
 .new-era {
-  margin-top: 5em;
+
 }
 
 .start-conversation {
@@ -446,7 +451,7 @@ footer ul.social li {
     width: 0.85em;
   }
 
-  .section-1 h1.s-80-text {
+  .section-1 h2.s-80-text {
     font-size: 12em;
   }
 
@@ -457,14 +462,14 @@ footer ul.social li {
     font-size: 16em;
   }
 
-  .section-1 h1.s-80-text {
-    font-size: 16em;
+  .section-1 h2.s-80-text {
+    font-size: 12em;
   }
 }
 
 @media (min-width: 992px) {
-  .section-1 h1.s-80-text {
-    font-size: 18em;
+  .section-1 h2.s-80-text {
+    font-size: 14.75em;
   }
 }
 
@@ -488,7 +493,7 @@ footer ul.social li {
     width: 1em;
   }
 
-  .section-1 h1.s-80-text {
+  .section-1 h2.s-80-text {
     font-size: 14.75em;
   }
 
@@ -506,7 +511,7 @@ footer ul.social li {
     font-size: 22em;
   }
 
-  .section-1 h1.s-80-text {
-    font-size: 28em;
+  .section-1 h2.s-80-text {
+    font-size: 16em;
   }
 }
