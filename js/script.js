@@ -180,3 +180,17 @@ window.onload = function() {
   //   immediateRender: true,
   // });
 };
+
+function debounce(func, delay) {
+  let timeout;
+  return function(...args) {
+    clearTimeout(timeout);
+    timeout = setTimeout(() => func.apply(this, args), delay);
+  };
+}
+
+const handleResize = debounce(() => {
+  location.reload();
+}, 300); // Adjust delay as needed (300ms in this case)
+
+window.addEventListener('resize', handleResize);
