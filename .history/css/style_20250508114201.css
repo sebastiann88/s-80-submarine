@@ -576,11 +576,11 @@ footer ul.social li {
 @media (min-width: 992px) {
 
   .hero-section {
-    height: 129.5vh;
+    height: 133.5vh;
   }
 
   .built-by-navantia {
-    height: 35vh;
+    height: 39vh;
   }
   
   .navbar-expand-lg .navbar-nav a.faq {
@@ -613,11 +613,11 @@ footer ul.social li {
 @media (min-width: 1200px) {
 
   .hero-section {
-    height: 129.5vh;
+    height: 130.5vh;
   }
 
   .built-by-navantia {
-    height: 35vh;
+    height: 36vh;
   }
 
   .logo {
