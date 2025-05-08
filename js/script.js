@@ -181,6 +181,8 @@ window.onload = function() {
   // });
 };
 
+
+// An event listener that refreshes the page when the window resizes
 function debounce(func, delay) {
   let timeout;
   return function(...args) {
@@ -194,3 +196,28 @@ const handleResize = debounce(() => {
 }, 300); // Adjust delay as needed (300ms in this case)
 
 window.addEventListener('resize', handleResize);
+
+// Scroll activated sticky navigation
+
+const body = document.body;
+let lastScroll = 0;
+
+window.addEventListener("scroll", () => {
+	const currentScroll = window.pageYOffset;
+	if (currentScroll <= 0) {
+		body.classList.remove("scroll-up");
+		return;
+	}
+
+	if (currentScroll > lastScroll && !body.classList.contains("scroll-down")) {
+		body.classList.remove("scroll-up");
+		body.classList.add("scroll-down");
+	} else if (
+		currentScroll < lastScroll &&
+		body.classList.contains("scroll-down")
+	) {
+		body.classList.remove("scroll-down");
+		body.classList.add("scroll-up");
+	}
+	lastScroll = currentScroll;
+});

@@ -203,6 +203,25 @@ button.get-in-touch {
   padding: 0;
 }
 
+/* NAVIGATION */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  transition: all 300ms ease-in-out;
+}
+
+.scroll-down header {
+  transform: translate3d(0, -100%, 0);
+}
+
+.scroll-up header {
+  filter: drop-shadow(0 -10px 20px rgb(170, 170, 170))
+}
+
 /* SPACING */
 
 .max-width-30 {
@@ -249,7 +268,7 @@ button.get-in-touch {
   line-height: 0.75;
 }
 
-.scroll-down {
+.scroll-down-arrows {
   position: absolute;
   top: 0;
   width: 100%;
@@ -302,11 +321,6 @@ h4.next-gen-sub {
 }
 
 /* Sections */
-
-header {
-  position: relative;
-  z-index: 100;
-}
 
 .section-1,
 .section-2,
