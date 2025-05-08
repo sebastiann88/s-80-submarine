@@ -1,0 +1,32 @@
+<xml xmlns="http://www.w3.org/1999/xhtml">
+  <tab name="Init" type="InitTab" active="false" scrollx="20.000000000000227" scrolly="20" scale="0.9"></tab>
+  <tab name="annotations" type="CommonTab" active="true" scrollx="20.00000000000034" scrolly="20" scale="0.9">
+    <block xmlns="https://developers.google.com/blockly/xml" type="addAnnotation" id="$K9.*QG|83JC]7=)F-1e" x="50" y="750">
+      <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
+      <value name="ANNOTATION">
+        <shadow type="text" id="@HHR{,[$FU!l$4mNWsLt">
+          <field name="TEXT">1</field>
+        </shadow>
+      </value>
+      <value name="TARGET">
+        <shadow type="objectList" id="cX4v-/}kcm,Hz(v8gcvG">
+          <field name="FIELDNAME">&lt;none&gt;</field>
+        </shadow>
+        <block type="objectList" id="Cle$}IB,`xgN%KYAp9M_">
+          <field name="FIELDNAME">fleet_size_annotation_2</field>
+        </block>
+      </value>
+      <value name="CONTENTS">
+        <shadow type="text" id="P[}+9?7ZOQBg`;VK@E^j">
+          <field name="TEXT">Point of interest #1</field>
+        </shadow>
+      </value>
+      <value name="ID">
+        <shadow type="text" id="{05GJtCu~1ur!3KJ/`p2">
+          <field name="TEXT">an_2</field>
+        </shadow>
+      </value>
+    </block>
+  </tab>
+  <editorsettings viewport-x="843.6" viewport-y="37" viewport-w="574.4" viewport-h="619.5" viewport-hidden="false" toolbox-library-mode="false" toolbox-minimized-mode="false"></editorsettings>
+</xml>
