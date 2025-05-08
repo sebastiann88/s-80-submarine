@@ -218,6 +218,15 @@ button.get-in-touch {
 
 /* JUMBOTRON */
 
+.s-80-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
 .s-80-jumbotron {
   height: 94.5vh;
   background-image: linear-gradient(
