@@ -331,6 +331,13 @@ h4.next-gen-sub {
   overflow: hidden;
 }
 
+.inside-s-80-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 75.35vh;
+}
+
 /* Components */
 
 .accordion {
