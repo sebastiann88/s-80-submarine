@@ -387,10 +387,6 @@ header {
   z-index: 100;
 }
 
-.new-era {
-
-}
-
 .start-conversation {
   display: flex;
   justify-content: center;
@@ -498,6 +494,11 @@ footer ul.social li {
   margin-top: 5%;
 }
 
+.s-80-submarine {
+  position: relative;
+  height: auto;
+}
+
 @media (min-width: 528px) {
   .arrow-right {
     padding-left: 0;
@@ -555,6 +556,10 @@ footer ul.social li {
     font-size: 2.85rem;
     line-height: 3.125rem;
   }
+
+  .start-conversation {
+    padding: 5em 0;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -584,11 +589,6 @@ footer ul.social li {
   .section-1 h2.s-80-text {
     font-size: 14.75em;
   }
-
-  .start-conversation {
-    padding: 3em 0;
-  }
-
   .navbar-expand-lg .navbar-nav a.nav-link {
       padding: 0.75em 0 0.25em;
   }
@@ -596,6 +596,20 @@ footer ul.social li {
   .built-by-h2 {
     font-size: 3.2473rem;
     line-height: 3.425rem;
+  }
+
+  .start-conversation {
+    padding: 8em 0;
+  }
+
+  .s-80-submarine img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: auto;
+    max-height: 40em;
+    object-fit: cover;
   }
 }
 
