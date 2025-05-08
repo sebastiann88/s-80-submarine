@@ -296,8 +296,15 @@ header {
 }
 
 .built-by-h2 {
+  position: relative;
   font-size: 2rem;
   line-height: 1.25em;
+  z-index: 100;
+}
+
+.built-by-h2 + p {
+  position: relative;
+  z-index: 100;
 }
 
 .s-80-headline {
