@@ -137,10 +137,6 @@ li a.active {
   /* border-bottom: 1px dotted #fff; */
 }
 
-.navbar-expand-lg .navbar-nav a.faq {
-  margin: 0 2.65em 0 0.95em;
-}
-
 .navbar-expand-lg .navbar-nav a.faq:hover,
 .navbar-expand-lg .navbar-nav a.faq:focus,
 .navbar-expand-lg .navbar-nav a.faq:active {
@@ -154,6 +150,8 @@ li a.active {
 
 button.get-in-touch {
   padding: 0.75em 0.25em;
+  margin-top: 0.5em;
+  margin-left: 0.975em;
 }
 
 .line-0-7-5 {
@@ -544,6 +542,16 @@ footer ul.social li {
 }
 
 @media (min-width: 992px) {
+  
+  .navbar-expand-lg .navbar-nav a.faq {
+    margin: 0 2.65em 0 0.95em;
+  }
+
+  button.get-in-touch {
+    margin-top: 0;
+    margin-left: 0;
+  }
+
   .section-1 h2.s-80-text {
     font-size: 14.75em;
   }
