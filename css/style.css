@@ -318,6 +318,19 @@ h4.next-gen-sub {
   z-index: 100;
 }
 
+/* VERGE 3D */
+
+.w-iframe {
+  height: 100%;
+}
+.modal-body {
+  padding: 0;
+}
+
+.modal-fullscreen .verge3D {
+  overflow: hidden;
+}
+
 /* Components */
 
 .accordion {

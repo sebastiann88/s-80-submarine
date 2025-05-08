@@ -44,7 +44,7 @@
           </value>
           <value name="CONTENTS">
             <shadow type="text" id="aY@b%pjO7-jHcRWzc/_k">
-              <field name="TEXT">&lt;strong style="font-size: 17px"&gt;HLMR #3: Endurance and Persistence&lt;/strong&gt;&lt;br&gt;&lt;p style="font-size: 13px"&gt;7000nm/8kts/21 days&lt;/p&gt;</field>
+              <field name="TEXT">Endurance and Persistence</field>
             </shadow>
           </value>
           <value name="ID">
@@ -70,7 +70,7 @@
               </value>
               <value name="CONTENTS">
                 <shadow type="text" id="1E9!~1Lr3s?dpqGC4J[x">
-                  <field name="TEXT">&lt;strong style="font-size: 17px"&gt;HLMR #4: Lethality&lt;/strong&gt;&lt;br&gt;&lt;p style="font-size: 13px"&gt;Sea Hake Mod 4 Torpedo/Mk48 Torpedo/Sub-harpoon missile/ Tomahawk (fitted for, not with) Naval Strike Missile (under development).&lt;/p&gt;</field>
+                  <field name="TEXT">Lethality</field>
                 </shadow>
               </value>
               <value name="ID">

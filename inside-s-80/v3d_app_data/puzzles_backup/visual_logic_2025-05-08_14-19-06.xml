@@ -1,6 +1,6 @@
 <xml xmlns="http://www.w3.org/1999/xhtml">
   <tab name="Init" type="InitTab" active="false" scrollx="20" scrolly="0" scale="0.9"></tab>
-  <tab name="annotations" type="CommonTab" active="true" scrollx="20.000000000000682" scrolly="19.999999999999943" scale="0.9">
+  <tab name="annotations" type="CommonTab" active="true" scrollx="20.000000000000227" scrolly="19.999999999999943" scale="0.9">
     <block xmlns="https://developers.google.com/blockly/xml" type="addAnnotation" id="$K9.*QG|83JC]7=)F-1e" x="10" y="730">
       <mutation xmlns="http://www.w3.org/1999/xhtml" usenameslot="false"></mutation>
       <value name="ANNOTATION">
@@ -18,7 +18,7 @@
       </value>
       <value name="CONTENTS">
         <shadow type="text" id="P[}+9?7ZOQBg`;VK@E^j">
-          <field name="TEXT">&lt;strong style="font-size: 17px"&gt;HLMR #2: Fleet Size&lt;/strong&gt;&lt;br&gt;&lt;p style="font-size: 13px"&gt;Ten S-80 submarines will meet the RCN operational needs and commitments&lt;/p&gt;</field>
+          <field name="TEXT">&lt;strong&gt;HLMR #2: Fleet Size&lt;/strong&gt;&lt;br&gt;&lt;p style="font-size: 12px"&gt;Ten S-80 submarines will meet the RCN operational needs and commitments&lt;/p&gt;</field>
         </shadow>
       </value>
       <value name="ID">
@@ -44,7 +44,7 @@
           </value>
           <value name="CONTENTS">
             <shadow type="text" id="aY@b%pjO7-jHcRWzc/_k">
-              <field name="TEXT">&lt;strong style="font-size: 17px"&gt;HLMR #3: Endurance and Persistence&lt;/strong&gt;&lt;br&gt;&lt;p style="font-size: 13px"&gt;7000nm/8kts/21 days&lt;/p&gt;</field>
+              <field name="TEXT">Endurance and Persistence</field>
             </shadow>
           </value>
           <value name="ID">
@@ -70,7 +70,7 @@
               </value>
               <value name="CONTENTS">
                 <shadow type="text" id="1E9!~1Lr3s?dpqGC4J[x">
-                  <field name="TEXT">&lt;strong style="font-size: 17px"&gt;HLMR #4: Lethality&lt;/strong&gt;&lt;br&gt;&lt;p style="font-size: 13px"&gt;Sea Hake Mod 4 Torpedo/Mk48 Torpedo/Sub-harpoon missile/ Tomahawk (fitted for, not with) Naval Strike Missile (under development).&lt;/p&gt;</field>
+                  <field name="TEXT">Lethality</field>
                 </shadow>
               </value>
               <value name="ID">
