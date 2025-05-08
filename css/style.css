@@ -279,13 +279,13 @@ header {
 }
 
 .hero-section {
-  height: 119.5vh;
+  height: 124.5vh;
 }
 
 .built-by-navantia {
   left: 0;
   bottom: 0;
-  height: 25vh;
+  height: 30vh;
   width: 100%;
   background-image: linear-gradient(
     to bottom,
