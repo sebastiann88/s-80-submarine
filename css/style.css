@@ -125,7 +125,7 @@ nav.navbar-expand-lg {
 .navbar-expand-lg .navbar-nav a.nav-link:hover,
 .navbar-expand-lg .navbar-nav a.nav-link:focus,
 .navbar-expand-lg .navbar-nav a.nav-link:active {
-  margin: 0 1.2em;
+  margin: 0 1.23em;
 }
 
 li a.text-white:hover,
@@ -652,6 +652,7 @@ footer ul.social li {
   .section-1 h2.s-80-text {
     font-size: 14.75em;
   }
+
   .navbar-expand-lg .navbar-nav a.nav-link {
       padding: 0.75em 0 0.25em;
   }
