@@ -354,12 +354,30 @@ header {
   z-index: 100;
 }
 
-.s-80-about-headline {
-
-}
-
 h4.next-gen-sub {
   z-index: 100;
+}
+
+/* ABOUT S-80 */
+
+.about-s-80-background {
+  background-color: #F8F8F8;
+}
+
+.big-numbers {
+  color: #d1dfef;
+  font-size: 8em;
+  line-height: 0.85;
+}
+
+.section-1-about {
+  margin-top: 6em;
+  margin-bottom: 6em;
+}
+
+.section-1-about-inner {
+  margin-top: 6em;
+  margin-bottom: 6em;
 }
 
 /* VERGE 3D */
