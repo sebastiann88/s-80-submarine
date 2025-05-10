@@ -268,7 +268,8 @@ header {
   line-height: 0.75;
 }
 
-.scroll-down-arrows {
+.scroll-down-arrows,
+.scroll-down-arrows-s-80 {
   position: absolute;
   top: 0;
   width: 100%;
@@ -278,8 +279,20 @@ header {
   justify-content: center;
 }
 
+.scroll-down-arrows {
+  height: 95%;
+}
+
+.scroll-down-arrows-s-80 {
+  height: 95%;
+}
+
 .hero-section {
   height: 138.5vh;
+}
+
+.hero-section-about-s-80 {
+  height: 100vh;
 }
 
 .built-by-navantia {
@@ -293,6 +306,10 @@ header {
     rgba(30, 31, 34, 1) 50%
   );
   padding: 3em 0.75em 0;
+}
+
+.hero-section-about {
+  height: 138.5vh;
 }
 
 .built-by-h2 {
