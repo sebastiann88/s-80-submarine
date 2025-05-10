@@ -300,14 +300,6 @@ header {
   height: 138.5vh;
 }
 
-.hero-section-about-s-80 {
-  height: 52vh;
-}
-
-.empty-hero-section-about {
-  height: 48vh;
-}
-
 .built-by-navantia {
   left: 0;
   bottom: 0;
@@ -359,6 +351,14 @@ h4.next-gen-sub {
 }
 
 /* ABOUT S-80 */
+
+.hero-section-about-s-80 {
+  height: 52vh;
+}
+
+.empty-hero-section-about {
+  height: 48vh;
+}
 
 .about-s-80-background {
   background-color: #F8F8F8;
@@ -784,6 +784,10 @@ footer ul.social li {
     font-size: 16em;
   }
 
+  .s-80-hero-about > h1 {
+    margin-bottom: 0.15em;
+  }
+
   .hero-section {
     height: 130.5vh;
   }
@@ -794,5 +798,11 @@ footer ul.social li {
 
   .section-1 h2.s-80-text {
     font-size: 16em;
+  }
+}
+
+@media (min-width: 2295px) {
+  .s-80-hero-about > h1 {
+    margin-bottom: 0.35em;
   }
 }
