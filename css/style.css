@@ -253,6 +253,15 @@ header {
   );
 }
 
+.s-80-jumbotron-about {
+  height: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(36, 37, 46, 0),
+    rgba(36, 37, 46, 0.95)
+  );
+}
+
 .s-80 {
   position: relative;
   display: flex;
@@ -272,8 +281,6 @@ header {
 .scroll-down-arrows-s-80 {
   position: absolute;
   top: 0;
-  width: 100%;
-  height: 95%;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -281,10 +288,12 @@ header {
 
 .scroll-down-arrows {
   height: 95%;
+  width: 100%;
 }
 
 .scroll-down-arrows-s-80 {
-  height: 95%;
+  height: 90.5%;
+  width: 15em;
 }
 
 .hero-section {
