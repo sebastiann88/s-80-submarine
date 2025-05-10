@@ -380,6 +380,26 @@ h4.next-gen-sub {
   margin-bottom: 6em;
 }
 
+.margin-top {
+  padding-top: 0.75rem;
+}
+
+.margin-top-double {
+  margin-top: 1.5rem;
+}
+
+.negative-margin-about {
+  margin-top: -0.75em;
+}
+
+.push-tripple {
+  margin-bottom: 2.25rem;
+}
+
+.push-5 {
+  margin-bottom: 3.75rem;
+}
+
 /* VERGE 3D */
 
 .w-iframe {
