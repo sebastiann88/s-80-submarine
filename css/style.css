@@ -370,12 +370,11 @@ h4.next-gen-sub {
   line-height: 0.85;
 }
 
-.section-1-about {
-  margin-top: 6em;
-  margin-bottom: 6em;
+.about-s-80-section {
+    margin-top: 6em;
 }
 
-.section-1-about-inner {
+.about-inner-sections {
   margin-top: 6em;
   margin-bottom: 6em;
 }
@@ -396,12 +395,20 @@ h4.next-gen-sub {
   margin-top: -1.5em;
 }
 
+.negative-margin-about-3 {
+  margin-top: -2.125em;
+}
+
 .push-tripple {
   margin-bottom: 2.25rem;
 }
 
 .push-5 {
   margin-bottom: 3.75rem;
+}
+
+.margin-right-about-s-80 {
+  margin-left: -6.75em;
 }
 
 /* VERGE 3D */
