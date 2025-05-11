@@ -107,7 +107,7 @@ hr {
 
 /* Tyography */
 
-h1, h2, h3, h4, h5, h6, p, ol, ul, li, a, span, div, figcaption {
+h1, h2, h3, h4, h5, h6, p, ol, ul, li, a, span, div, section, article, figcaption {
   font-family: "Work Sans", sans-serif;
   font-optical-sizing: auto;
   font-style: normal;
@@ -387,32 +387,12 @@ h4.next-gen-sub {
   margin-top: 1.5rem;
 }
 
-.negative-margin-about {
-  margin-top: -0.15em;
-}
-
-.negative-margin-about-2 {
-  margin-top: -1.5em;
-}
-
-.negative-margin-about-3 {
-  margin-top: -2.125em;
-}
-
 .push-tripple {
   margin-bottom: 2.25rem;
 }
 
 .push-5 {
   margin-bottom: 3.75rem;
-}
-
-.margin-right-about-s-80 {
-  margin-left: -6.175em;
-}
-
-.margin-left-about-s-80 {
-  margin-left: 0.85em;
 }
 
 /* VERGE 3D */
@@ -454,7 +434,7 @@ h4.next-gen-sub {
   opacity: 1;
 }
 
-.section-1 > div {
+.section-1 > article {
   height: 100vh;
   justify-content: flex-start;
   padding-top: 12em;
@@ -529,7 +509,7 @@ h4.next-gen-sub {
   padding: 3em 2em;
 }
 
-.start-conversation > div {
+.start-conversation > article {
   padding-left: 0.75%;
   padding-right: 0;
 }
@@ -658,7 +638,7 @@ footer ul.social li {
     font-size: 12em;
   }
 
-  .start-conversation > div {
+  .start-conversation > article {
     padding-left: 2.125%;
   }
 
@@ -666,7 +646,6 @@ footer ul.social li {
     font-size: 2.5rem;
     line-height: 1.125em;
   }
-
 }
 
 @media (min-width: 768px) {
@@ -687,7 +666,7 @@ footer ul.social li {
     font-size: 12em;
   }
 
-  .start-conversation > div {
+  .start-conversation > article {
     padding-left: 2.75%;
   }
 
@@ -720,7 +699,7 @@ footer ul.social li {
     font-size: 14.75em;
   }
 
-  .start-conversation > div {
+  .start-conversation > article {
     padding-left: 22%;
   }
 
@@ -734,7 +713,7 @@ footer ul.social li {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 1400px) {
 
   .hero-section {
     height: 129.5vh;
@@ -791,6 +770,26 @@ footer ul.social li {
     height: auto;
     max-height: 40em;
     object-fit: cover;
+  }
+
+  .negative-margin-about {
+    margin-top: -0.15em;
+  }
+
+  .negative-margin-about-2 {
+    margin-top: -1.5em;
+  }
+
+  .negative-margin-about-3 {
+    margin-top: -2.125em;
+  }
+
+  .margin-right-about-s-80 {
+    margin-left: -6.175em;
+  }
+
+  .margin-left-about-s-80 {
+    margin-left: 0.85em;
   }
 }
 
