@@ -411,7 +411,7 @@ h4.next-gen-sub {
   object-fit: cover;
 }
 
-.s-80-jumbotron-inside {
+.hero-section-inside {
   position: relative;
   height: 100%;
   background-image: linear-gradient(
@@ -421,6 +421,38 @@ h4.next-gen-sub {
   );
   z-index: -20;
 }
+
+/* .hero-section-inside {
+  position: relative;
+  height: 100%;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(36, 37, 46, 1),
+    rgba(36, 37, 46, 1)
+  );
+  z-index: -20;
+} */
+
+.main-section-inside {
+  height: 100vh;
+  background-color: #232d4a;
+}
+
+.bottom-section-inside {
+  position: relative;
+  height: 100vh;
+      background-image: linear-gradient(
+    to top,
+    rgba(36, 37, 46, 1),
+    rgba(35, 45, 74, 1)
+  );
+  z-index: -20;
+}
+
+/* .section-1-inside {
+  height: 100vh;
+  background-color: #24252e;
+} */
 
 /* VERGE 3D */
 
@@ -436,10 +468,17 @@ h4.next-gen-sub {
 }
 
 .inside-s-80-btn {
+  position: absolute;
   display: flex;
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  transform: translateX(-50%);
   align-items: center;
   justify-content: center;
-  height: 75.35vh;
+  margin-top: 6em;
+  height: 100vh;
+  z-index: 300;
 }
 
 /* Components */
