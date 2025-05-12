@@ -278,7 +278,8 @@ header {
 }
 
 .scroll-down-arrows,
-.scroll-down-arrows-s-80 {
+.scroll-down-arrows-s-80,
+.scroll-down-arrows-inside {
   position: absolute;
   top: 0;
   display: flex;
@@ -293,6 +294,11 @@ header {
 
 .scroll-down-arrows-s-80 {
   height: 90.5%;
+  width: 15em;
+}
+
+.scroll-down-arrows-inside {
+  height: 95%;
   width: 15em;
 }
 
@@ -482,7 +488,7 @@ h4.next-gen-sub {
   transform: translateX(-50%);
   align-items: center;
   justify-content: center;
-  margin-top: 6em;
+  margin-top: 7%;
   height: 100vh;
   z-index: 300;
 }
