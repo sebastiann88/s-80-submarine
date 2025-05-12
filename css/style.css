@@ -449,6 +449,12 @@ h4.next-gen-sub {
   z-index: -20;
 }
 
+.main-section-inside > div,
+.bottom-section-inside > div {
+  height: 100vh;
+  background-color: #232d4a;
+}
+
 /* .section-1-inside {
   height: 100vh;
   background-color: #24252e;
