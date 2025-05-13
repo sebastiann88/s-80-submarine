@@ -261,6 +261,14 @@ header {
   height: 90vh;
 }
 
+.vh-80 {
+  height: 80vh;
+}
+
+.vh-70 {
+  height: 70vh;
+}
+
 /* JUMBOTRON */
 
 .s-80-video {
@@ -431,11 +439,6 @@ h4.next-gen-sub {
 
 /* INSIDE S-80 */
 
-.hero-section-inside-s-80 {
-  /* height: 100vh; */
-/*  background-color: #221E22;*/
-}
-
 .s-80-hero-inside {
   position: absolute;
   top: 0;
@@ -468,7 +471,6 @@ h4.next-gen-sub {
 } */
 
 .main-section-inside {
-  height: 100vh;
   background-color: #232d4a;
 }
 
