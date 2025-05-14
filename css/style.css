@@ -186,22 +186,6 @@ button.get-in-touch {
   list-style-type: none;
 }
 
-.gutter-tripple {
-  padding: 0 2.25em;
-}
-
-.gutter-4 {
-  padding: 0 3em;
-}
-
-.gutter-5 {
-  padding: 0 3.75em;
-}
-
-.pad-none {
-  padding: 0;
-}
-
 /* NAVIGATION */
 
 header {
@@ -291,6 +275,27 @@ header {
 
 .island-6 {
   padding: 4.5rem;
+}
+
+.gutter-tripple {
+  padding: 0 2.25em;
+}
+
+.gutter-4 {
+  padding: 0 3em;
+}
+
+.gutter-5 {
+  padding: 0 3.75em;
+}
+
+.pad-none {
+  padding: 0;
+}
+
+.pad-top-none,
+.form-outline .form-control~.form-label {
+  padding-top: 0;
 }
 
 .vh-100 {
@@ -511,6 +516,10 @@ h4.next-gen-sub {
 .bottom-section-inside div {
   position: relative;
   z-index: -20;
+}
+
+form .form-outline input.form-control {
+  height: 3em;
 }
 
 /* VERGE 3D */
@@ -737,6 +746,14 @@ footer ul.social li {
 .s-80-submarine {
   position: relative;
   height: auto;
+}
+
+.s-80-submarine-tall {
+  position: relative;
+  background-image: url("../img/s-80-submarine-tall.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 @media (min-width: 528px) {
