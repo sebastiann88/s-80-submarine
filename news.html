@@ -111,7 +111,7 @@
                 </li>
                 <li class="nav-item">
                   <a
-                    class="nav-link brand-color-light-blue micro"
+                    class="nav-link brand-color-light-blue micro active"
                     href="./news.html"
                     >News</a
                   >
@@ -131,7 +131,7 @@
                     data-mdb-ripple-color="light"
                   >
                     <a
-                      class="micro semi-bold brand-color-light-blue gutter-1-2 active"
+                      class="micro semi-bold brand-color-light-blue gutter-1-2"
                       href="./contact.html"
                       >Get in Touch
                       <img src="./img/arrow-right.svg" class="arrow-right"
@@ -144,66 +144,70 @@
         </nav>
       </header>
 
-      <section class="section-4">
+      <div class="container pad-top-8 push-double">
+        <div class="row">
+          <!-- <h2
+            class="tera lh-1 push-1-4 semi-bold text-uppercase brand-color-blue"
+          >
+            FAQ
+          </h2> -->
+          <h1 class="zetta lh-1 push-3-4 semi-bold text-center text-uppercase">
+            Featured News
+          </h1>
+
+          <p class="small">
+            Welcome to the FAQ section of Lacasse Contracting, where we aim to
+            provide clear and concise answers to some of the most common
+            questions our clients have. We understand that embarking on a
+            construction or renovation project comes with a myriad of
+            considerations, and it’s natural to seek clarity before diving in.
+            Our goal is to make your decision-making process as informed and
+            straightforward as possible. Below, you’ll find a curated list of
+            queries ranging from service details to project management, which
+            reflect the usual concerns and curiosities that arise. These answers
+            represent our commitment to transparency and customer service.
+          </p>
+        </div>
+      </div>
+
+      <section class="section-4 bg-brand-color-blue">
         <div class="container-fluid">
-          <div class="row vh-100">
-            <figure
-              class="col-sm-12 col-lg-5 no-padding push-none s-80-submarine-tall"
-            ></figure>
+          <div class="row">
             <div
-              class="d-flex flex-column justify-content-center col-sm-12 offset-lg-1 col-lg-5"
+              class="col-sm-12 col-lg-4 gutter-5 flex-column start-conversation"
             >
-              <h2
-                class="tera lh-1 push-1-4 semi-bold text-uppercase brand-color-blue"
-              >
-                Contact Us
-              </h2>
-              <h1 class="zetta lh-1 push-3-4 semi-bold text-uppercase">
-                Need More Info?
-              </h1>
-              <form class="w-100">
-                <!-- Name input -->
-                <div data-mdb-input-init class="form-outline mb-4">
-                  <input
-                    type="text"
-                    id="form4Example1"
-                    class="form-control lh-1"
-                  />
-                  <label class="form-label" for="form4Example1">Name</label>
-                </div>
-
-                <!-- Email input -->
-                <div data-mdb-input-init class="form-outline mb-4">
-                  <input
-                    type="email"
-                    id="form4Example2"
-                    class="form-control lh-1"
-                  />
-                  <label class="form-label" for="form4Example2"
-                    >Email address</label
-                  >
-                </div>
-
-                <!-- Message input -->
-                <div data-mdb-input-init class="form-outline mb-4">
-                  <textarea
-                    class="form-control lh-1"
-                    id="form4Example3"
-                    rows="8"
-                  ></textarea>
-                  <label class="form-label" for="form4Example3">Message</label>
-                </div>
-
-                <!-- Submit button -->
-                <button
-                  data-mdb-ripple-init
-                  type="button"
-                  class="btn btn-primary btn-block mb-4 w-25"
+              <article class="container">
+                <h2
+                  class="push-none semi-bold yotta brand-color-light-blue text-uppercase"
                 >
-                  Send
+                  Let’s start a conversation
+                </h2>
+                <p class="small text-white pad-t">
+                  The S-80 isn’t just a vessel—it’s a strategic partnership
+                  opportunity between trusted NATO allies. With cutting-edge
+                  technology, operational readiness, and a proven production
+                  line, Navantia is ready to support Canada’s defence future.
+                  Let’s connect and explore how the S-80 can serve Canada’s
+                  evolving naval needs.
+                </p>
+                <button
+                  type="button"
+                  class="btn btn-secondary contact-us-btn"
+                  data-mdb-ripple-init
+                >
+                  Contact Us
                 </button>
-              </form>
+              </article>
             </div>
+            <figure
+              class="col-sm-12 offset-lg-1 col-lg-7 no-padding push-none s-80-submarine"
+            >
+              <img
+                class="img-fluid"
+                src="./img/s-80-submarine.jpg"
+                alt="s-80-submarine"
+              />
+            </figure>
           </div>
         </div>
       </section>
