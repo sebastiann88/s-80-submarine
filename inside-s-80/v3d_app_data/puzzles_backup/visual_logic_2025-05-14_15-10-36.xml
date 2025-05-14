@@ -252,7 +252,7 @@
                                           <statement name="DO0">
                                             <block type="setHTMLElemStyle" id="*kgoaX_z5Pk)Ob9,LRt1">
                                               <field name="PROPERTY">display</field>
-                                              <field name="PARENT">FALSE</field>
+                                              <field name="PARENT">TRUE</field>
                                               <value name="VALUE">
                                                 <shadow type="displayDropdown" id="txwo1HLt_hX%`)0y9/EP">
                                                   <field name="TEXT">none</field>
@@ -315,24 +315,23 @@
                                                     </block>
                                                   </value>
                                                   <next>
-                                                    <block type="setCSSRuleStyle" id="d^R;Tmm[t9@:!k=WtzK7">
-                                                      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+                                                    <block type="setHTMLElemStyle" id="U}CmO~_+j7)H8$dqDQSA">
                                                       <field name="PROPERTY">backgroundImage</field>
                                                       <field name="PARENT">TRUE</field>
                                                       <value name="VALUE">
-                                                        <shadow type="text" id="M;)VA2`v0:Ne;!E+RDRe">
-                                                          <field name="TEXT">url('../images/annotation_hidden_button.svg')</field>
+                                                        <shadow type="text" id="7$jE$6=xp{hc:+L!0B=z">
+                                                          <field name="TEXT">url('my_image.png')</field>
                                                         </shadow>
-                                                        <block type="text" id="Lwj4vAnsx%K?{.=,9}m_">
+                                                        <block type="text" id="S13-3Jr6LG?F;BD{EGiZ">
                                                           <field name="TEXT">url('../images/annotation_hidden_button.svg')</field>
                                                         </block>
                                                       </value>
                                                       <value name="ID">
-                                                        <shadow type="text" id="r?Vd?$cU8NlE}?v!y;(c">
-                                                          <field name="TEXT">.myClass</field>
+                                                        <shadow type="text" id="BoHRb!51/T#U6K@5Iju*">
+                                                          <field name="TEXT">myElem</field>
                                                         </shadow>
-                                                        <block type="text" id="XWt_H#Bd4Erm,Y~f6oP;">
-                                                          <field name="TEXT">.button</field>
+                                                        <block type="text" id="*%DodOZ)gY9}QD(oB`In">
+                                                          <field name="TEXT">.button.annotation-button</field>
                                                         </block>
                                                       </value>
                                                     </block>
@@ -344,7 +343,7 @@
                                           <statement name="ELSE">
                                             <block type="setHTMLElemStyle" id="rO0$NaJP*n3^I#O0BT9V">
                                               <field name="PROPERTY">display</field>
-                                              <field name="PARENT">FALSE</field>
+                                              <field name="PARENT">TRUE</field>
                                               <value name="VALUE">
                                                 <shadow type="displayDropdown" id="Ilij%@?Kn=Tb@T(3(p{M">
                                                   <field name="TEXT">block</field>
@@ -407,24 +406,23 @@
                                                     </block>
                                                   </value>
                                                   <next>
-                                                    <block type="setCSSRuleStyle" id="$~*0OAB%fy_S00;XX=_K">
-                                                      <mutation xmlns="http://www.w3.org/1999/xhtml" mediaruleslot="false"></mutation>
+                                                    <block type="setHTMLElemStyle" id="CIkO2;}o@a$bq2f6(Gac">
                                                       <field name="PROPERTY">backgroundImage</field>
                                                       <field name="PARENT">TRUE</field>
                                                       <value name="VALUE">
-                                                        <shadow type="text" id="M;)VA2`v0:Ne;!E+RDRe">
-                                                          <field name="TEXT">url('../images/annotation_hidden_button.svg')</field>
+                                                        <shadow type="text" id="7$jE$6=xp{hc:+L!0B=z">
+                                                          <field name="TEXT">url('my_image.png')</field>
                                                         </shadow>
-                                                        <block type="text" id="Z@*7Nt}a`%;}ZNf`Alu/">
+                                                        <block type="text" id="Fl#_n4[5ztF:G^q$eFe~">
                                                           <field name="TEXT">url('../images/annotation_visible_button.svg')</field>
                                                         </block>
                                                       </value>
                                                       <value name="ID">
-                                                        <shadow type="text" id="r?Vd?$cU8NlE}?v!y;(c">
-                                                          <field name="TEXT">.myClass</field>
+                                                        <shadow type="text" id="BoHRb!51/T#U6K@5Iju*">
+                                                          <field name="TEXT">myElem</field>
                                                         </shadow>
-                                                        <block type="text" id=":$Z80V=dutXyPOAUdxz%">
-                                                          <field name="TEXT">.button</field>
+                                                        <block type="text" id=",e!s:[s{Wvkvjfv2s)Vb">
+                                                          <field name="TEXT">.button.annotation-button</field>
                                                         </block>
                                                       </value>
                                                     </block>

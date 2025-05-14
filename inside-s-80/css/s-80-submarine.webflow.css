@@ -3,7 +3,7 @@
   height: 100%;
   position: absolute;
   inset: 0% auto auto 0%;
-  overflow: hidden;
+  overflow: visible;
 }
 
 .button {
@@ -15,6 +15,10 @@
   height: 80px;
   position: absolute;
   inset: 1.5% auto auto 1.5%;
+}
+
+.button.annotation-button {
+  top: 1.5%;
 }
 
 

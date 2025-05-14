@@ -332,7 +332,7 @@
                                                           <field name="TEXT">.myClass</field>
                                                         </shadow>
                                                         <block type="text" id="XWt_H#Bd4Erm,Y~f6oP;">
-                                                          <field name="TEXT">.button</field>
+                                                          <field name="TEXT">.button.annotation-button</field>
                                                         </block>
                                                       </value>
                                                     </block>
@@ -424,7 +424,7 @@
                                                           <field name="TEXT">.myClass</field>
                                                         </shadow>
                                                         <block type="text" id=":$Z80V=dutXyPOAUdxz%">
-                                                          <field name="TEXT">.button</field>
+                                                          <field name="TEXT">.button.annotation-button</field>
                                                         </block>
                                                       </value>
                                                     </block>

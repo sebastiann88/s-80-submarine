@@ -531,10 +531,6 @@ form .form-outline input.form-control {
   padding: 0;
 }
 
-.modal-fullscreen .verge3D {
-  overflow: hidden;
-}
-
 .inside-s-80-btn {
   position: absolute;
   display: flex;
