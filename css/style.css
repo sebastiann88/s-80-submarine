@@ -486,8 +486,12 @@ h4.next-gen-sub {
 
 .big-numbers {
   color: #d1dfef;
-  font-size: 8em;
+  font-size: 9.75em;
   line-height: 0.85;
+}
+
+.big-numbers + h2 {
+  margin-top: 0.75em;
 }
 
 .about-s-80-section {
