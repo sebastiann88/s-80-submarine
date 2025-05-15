@@ -200,8 +200,8 @@
       </div>
       <!-- Background image -->
       <div id="canvasContainer">
-        <canvas id="mcanvas"></canvas>
-        <div class="annotation">
+        <canvas id="mcanvas" class="z-2"></canvas>
+        <div class="annotation z-3">
           <article class="annotationtext">
             <h4 class="orbitron push-1-4"><strong>S-80</strong></h4>
             <p class="micro push-none">
@@ -212,7 +212,7 @@
         </div>
       </div>
       <div id="content">
-        <section id="view1">
+        <section id="view1" class="vh-100">
           <div class="container section-1">
             <article class="row flex-column">
               <h2
@@ -242,7 +242,7 @@
             </article>
           </div>
         </section>
-        <section id="view2">
+        <section id="view2" class="d-flex justify-content-end vh-80 mt-28">
           <div class="container section-2">
             <div class="row flex-column">
               <article class="fade-left2">
@@ -283,11 +283,14 @@
             </div>
           </div>
         </section>
-        <section id="view3">
+        <section
+          id="view3"
+          class="d-flex justify-content-center vh-80 mt-20 vh-80"
+        >
           <div class="container section-3 fade-right3">
             <div class="push-double">
               <article
-                class="col-sm-12 offset-lg-6 col-lg-6 flex-column new-era"
+                class="col-sm-12 offset-lg-6 col-lg-6 flex-column new-era mt-12"
               >
                 <h2 class="tenakilo text-uppercase">
                   Built for a New&nbsp;Era
@@ -316,7 +319,7 @@
             </div>
           </div>
         </section>
-        <section class="section-4 bg-brand-color-blue">
+        <section id="view4" class="section-4 bg-brand-color-blue">
           <div class="container-fluid">
             <div class="row">
               <div

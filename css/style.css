@@ -228,6 +228,26 @@ header {
   margin-top: 6rem!important;
 }
 
+.mt-12 {
+  margin-top: 9rem!important;
+}
+
+.mt-16 {
+  margin-top: 12rem!important;
+}
+
+.mt-20 {
+  margin-top: 16rem!important;
+}
+
+.mt-24 {
+  margin-top: 20rem!important;
+}
+
+.mt-28 {
+  margin-top: 24rem!important;
+}
+
 .push-tripple {
   margin-bottom: 2.25rem;
 }
@@ -436,6 +456,11 @@ h4.next-gen-sub {
   z-index: 100;
 }
 
+#mcanvas {
+  position: relative;
+  height: auto;
+}
+
 /* ABOUT S-80 */
 
 .hero-section-about-s-80 {
@@ -578,7 +603,6 @@ form .form-outline input.form-control {
 }
 
 .section-1 > article {
-  height: 100vh;
   justify-content: flex-start;
   padding-top: 12em;
 }
@@ -596,7 +620,6 @@ form .form-outline input.form-control {
 }
 
 .section-2 > div {
-  height: 100vh;
   justify-content: center;
 }
 
@@ -616,7 +639,6 @@ form .form-outline input.form-control {
   display: flex;
   align-items: center;
   justify-content: end;
-  height: 100vh;
 }
 
 .section-3,

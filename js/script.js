@@ -5,7 +5,7 @@ window.onload = function() {
 
   ScrollTrigger.create({
     trigger: ".section-1",
-    start: "95.8% 95.2%",
+    start: "58% 50%",
     end: "top top",
     // markers: true,
     onEnter: () => {
@@ -22,8 +22,8 @@ window.onload = function() {
   });
 
   ScrollTrigger.create({
-    trigger: ".section-3",
-    start: "95.8% bottom",
+    trigger: ".section-4",
+    start: "58% 50%",
     end: "bottom bottom",
     // markers: true,
     onEnter: () => {
@@ -43,8 +43,8 @@ window.onload = function() {
     opacity: 0,
     scrollTrigger: {
       trigger: ".section-1",
-      start: "30% 15%", // when top of the text hits center of viewport
-      end: "bottom 75%",   // when bottom of the text hits top of viewport
+      start: "35% 20%", // when top of the text hits center of viewport
+      end: "bottom 15%",   // when bottom of the text hits top of viewport
       scrub: true,         // smooth scrub based on scroll position
       // markers: true,       // show markers for debugging
     },
@@ -56,10 +56,10 @@ window.onload = function() {
     yPercent: 0,
     scrollTrigger: {
       trigger: ".section-1",
-      start: "30% 15%",
-      end: "bottom 75%",
+      start: "35% 20%",
+      end: "bottom 15%",
       scrub: true,
-      x: -100,
+      x: -400,
       y: 0,
       // markers: true,
     },
@@ -71,8 +71,8 @@ window.onload = function() {
     yPercent: 0,
     scrollTrigger: {
       trigger: ".section-1",
-      start: "30% 15%",
-      end: "bottom 75%",
+      start: "30% 20%",
+      end: "bottom 15%",
       scrub: true,
       x: 400,
       y: 0,
@@ -85,8 +85,8 @@ window.onload = function() {
     opacity: 0,
     scrollTrigger: {
       trigger: ".section-2",
-      start: "20% 20%",
-      end: "bottom 85%",
+      start: "30% 20%",
+      end: "bottom 15%",
       scrub: true,
       // markers: true,
     },
@@ -98,8 +98,8 @@ window.onload = function() {
     yPercent: 0,
     scrollTrigger: {
       trigger: ".section-2",
-      start: "20% 20%",
-      end: "bottom 75%",
+      start: "30% 20%",
+      end: "bottom 15%",
       scrub: true,
       x: -400,
       y: 0,
@@ -113,8 +113,8 @@ window.onload = function() {
     yPercent: 0,
     scrollTrigger: {
       trigger: ".section-2",
-      start: "20% 20%",
-      end: "bottom 75%",
+      start: "30% 20%",
+      end: "bottom 15%",
       scrub: true,
       x: 400,
       y: 0,
@@ -128,7 +128,7 @@ window.onload = function() {
     scrollTrigger: {
       trigger: ".section-3",
       start: "top 2%",
-      end: "bottom 80%",
+      end: "bottom 0%",
       scrub: true,
       // markers: true,
     },
